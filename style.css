@@ -413,10 +413,54 @@ header a, .nav-bar a{
 
 /* ============================================== */
 /* Problem statement */
+.problem-statement{
+  position: relative;
+}
+
 .problem-statement .problem-img-container img{
   width: 890px;
   height: auto;
+  z-index: 0;
 }
+
+.prob_youtube_1{
+  position: absolute;
+  top: 35%;
+  right: 30%;
+  z-index: 1;
+}
+
+.prob_youtube_1 img{
+  width: 110px;
+  height: auto;
+}
+
+.prob_youtube_2{
+  position: absolute;
+  top: 80%;
+  left: 32%;
+  z-index: 1;
+}
+
+.prob_youtube_2 img{
+  width: 60px;
+  height: auto;
+}
+
+.prob_youtube_3{
+  position: absolute;
+  top: 70%;
+  right: 28%;
+  z-index: 1;
+}
+
+.prob_youtube_3 img{
+  width: 24px;
+  height: auto;
+}
+
+/* ============================================== */
+/* Work Style */
 
 #workStyle{
   position: relative;
