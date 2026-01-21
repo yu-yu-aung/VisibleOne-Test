@@ -39,6 +39,33 @@ body{
   line-height: var(--body-text-line-height);
 }
 
+/* ============================================== */
+/* General styling for sections and header texts */
+.partner-header,
+.contact-header, 
+.statement-header, 
+.work-header {
+  font-size: var(--secondary-heading-size);
+  font-weight: bold;
+  text-align: center;
+  line-height: 100%;
+} 
+
+.partner-section,
+.problem-statement, 
+.work-style, 
+.logic,
+.contact-section {
+  padding: var(--primary-padding-tb) 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 64px;
+}
+
+
+/* ============================================== */
 /* Header */
 header{
   width: 100%;
@@ -137,6 +164,7 @@ header a, .nav-bar a{
   color: var(--disable-text-color);
 }
 
+/* ============================================== */
 /* Hero Section Strokes and Deco */
 .hero-circular{
   position: absolute;
@@ -270,30 +298,11 @@ header a, .nav-bar a{
   height: auto;
 }
 
-
+/* ============================================== */
 /* Partner Section  */
 #partners{
-  padding: var(--primary-padding-tb);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  gap: 64px;
-}
-
-.partner-header,
-.contact-header, 
-.statement-header, 
-.work-header {
-  font-size: var(--secondary-heading-size);
-  font-weight: bold;
-  text-align: center;
-  line-height: 100%;
-} 
-
-#partners{
+  padding: var(--primary-padding-tb) var(--primary-padding-lr);
   position: relative;
-  padding-inline: var(--primary-padding-lr);
 }
 
 .partner-header{
@@ -402,20 +411,8 @@ header a, .nav-bar a{
   background-color: var(--secondary-accent-color);
 }
 
+/* ============================================== */
 /* Problem statement */
-.partner-section,
-.problem-statement, 
-.work-style, 
-.logic,
-.contact-section {
-  padding: var(--primary-padding-tb) 0px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  gap: 64px;
-}
-
 .problem-statement .problem-img-container img{
   width: 890px;
   height: auto;
@@ -521,6 +518,7 @@ header a, .nav-bar a{
   text-align: center;
 }
 
+/* ============================================== */
 /* Logical and Reasoning */
 .logic-card{
   width: 100%;
@@ -547,6 +545,7 @@ header a, .nav-bar a{
   height: auto;
 }
 
+/* ============================================== */
 /* Reviews and Testimonials */
 .review{
   padding: var(--primary-padding-tb) var(--primary-padding-lr);
@@ -686,6 +685,7 @@ header a, .nav-bar a{
 }
 
 
+/* ============================================== */
 /* Charity Section */
 .charity-section{
   padding: var(--primary-padding-tb);
@@ -751,6 +751,7 @@ header a, .nav-bar a{
   font-weight: bold;
 }
 
+/* ============================================== */
 /* Contact Us & Footer */
 .cta-container{
   display: flex;
